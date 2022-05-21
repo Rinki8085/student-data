@@ -1,0 +1,103 @@
+#container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:10px;
+    width:70%;
+    margin:auto;
+    border:2px solid darkgreen;
+}
+
+#container>div:last-child{
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    padding:10px;
+}
+
+a{
+    text-decoration:none;
+    color:darkblue;
+}
+
+#navbar{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    /* justify-content: right; */
+   
+    height:40px;
+    width:50%;
+    padding:8px;
+    box-sizing: border-box;
+}
+#navbar>div{
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkred;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+#student_data{
+    width:30%;
+    border-radius:5px;
+    margin:auto;
+    margin-top:60px;
+    padding:20px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 55px 10px rgb(0 0 0 / 10%);
+}
+
+h2{
+    text-align:center;
+    color:teal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+
+}
+
+input[type='text'],input[type='url']{
+    border:2px solid red;
+    margin:20px;
+    width:85%;
+    border:1px solid lightblue;
+    border-radius:5px;
+    padding-left:10px; 
+    height:25px;
+}
+
+input[type='submit']{
+    width:65%;
+    height:30px;
+    border:none;
+    border-radius:5px;
+    background-color: green;
+    color: white;
+    font-size:20px;
+    margin:20px;
+    margin-left:67px;
+}
+
+#units,#batches{
+    margin:20px;
+    font-weight:bold;
+}
+#unit,#batch{
+    width:60%;
+    height:30px;
+    margin-left:20px;
+    border-radius:5px;
+    border:1px solid lightblue;
+}
+
+#name{
+    margin-bottom:-1px;
+}
+
+#batch{
+    width:56%;
+}
